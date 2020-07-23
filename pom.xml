@@ -215,7 +215,7 @@
 		<module>ruoyi-generator</module>
         <module>ruoyi-common</module>
     </modules>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
 
 
 	<dependencies>
