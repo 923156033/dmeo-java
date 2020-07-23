@@ -7,10 +7,9 @@
     <groupId>com.ruoyi</groupId>
     <artifactId>ruoyi</artifactId>
     <version>4.2.0</version>
-	<packaging>war</packaging>
 
     <name>ruoyi</name>
-	<url>http://www.ruoyi.vip</url>
+	<url>http://172.16.21.201:8888</url>
     <description>若依管理系统</description>
     
     <properties>
