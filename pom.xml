@@ -7,12 +7,14 @@
     <groupId>com.ruoyi</groupId>
     <artifactId>ruoyi</artifactId>
     <version>4.2.0</version>
+	<packaging>war</packaging>
 
     <name>ruoyi</name>
 	<url>http://www.ruoyi.vip</url>
     <description>若依管理系统</description>
     
     <properties>
+	    <ruoyi.version>4.2.0</ruoyi.version>
 	    <ruoyi.version>4.2.0</ruoyi.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
