@@ -45,6 +45,26 @@
                 <scope>import</scope>
             </dependency>
             
+			<!-- 多模块排除内置tomcat -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-web</artifactId>
+				<exclusions>
+					<exclusion>
+						<groupId>org.springframework.boot</groupId>
+						<artifactId>spring-boot-starter-tomcat</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+					
+			<!-- 单应用排除内置tomcat -->		
+			<exclusions>
+				<exclusion>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+					<groupId>org.springframework.boot</groupId>
+				</exclusion>
+			</exclusions>
+
             <!--阿里数据库连接池 -->
             <dependency>
                 <groupId>com.alibaba</groupId>
