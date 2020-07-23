@@ -233,7 +233,7 @@
         <module>ruoyi-generator</module>
         <module>ruoyi-common</module>
     </modules>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
 
 
     <dependencies>
