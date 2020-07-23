@@ -66,6 +66,26 @@
             <groupId>com.ruoyi</groupId>
             <artifactId>ruoyi-framework</artifactId>
         </dependency>
+		
+		<!-- 多模块排除内置tomcat -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+				
+		<!-- 单应用排除内置tomcat -->		
+		<exclusions>
+			<exclusion>
+				<artifactId>spring-boot-starter-tomcat</artifactId>
+				<groupId>org.springframework.boot</groupId>
+			</exclusion>
+		</exclusions>
 
         <!-- 定时任务-->
         <dependency>
